@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.UI.Console", "BattleshipGame.UI.Console\BattleshipGame.UI.Console.csproj", "{21F37574-D686-4463-A439-6D7C3CC74778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.Core.Application", "BattleshipGame.Core.Application\BattleshipGame.Core.Application.csproj", "{B6F29913-E50E-4385-9FA1-C26449F49B0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.Core.Domain", "BattleshipGame.Core.Domain\BattleshipGame.Core.Domain.csproj", "{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F7CD7520-83B8-4170-84D8-464CA7463F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{33D88BE2-DE5C-43A9-B8FF-CED05F112936}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleshipGame.Infrastructure.Persistence", "BattleshipGame.Infrastructure.Persistence\BattleshipGame.Infrastructure.Persistence.csproj", "{64AB0845-BC12-48B2-846B-749C093F55AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipGame.Infrastructure.Players", "BattleshipGame.Infrastructure.Players\BattleshipGame.Infrastructure.Players.csproj", "{FE3E7BD2-EAE6-4841-BBA4-94309038C788}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F37574-D686-4463-A439-6D7C3CC74778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F37574-D686-4463-A439-6D7C3CC74778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F37574-D686-4463-A439-6D7C3CC74778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F37574-D686-4463-A439-6D7C3CC74778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6F29913-E50E-4385-9FA1-C26449F49B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6F29913-E50E-4385-9FA1-C26449F49B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6F29913-E50E-4385-9FA1-C26449F49B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6F29913-E50E-4385-9FA1-C26449F49B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AB0845-BC12-48B2-846B-749C093F55AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AB0845-BC12-48B2-846B-749C093F55AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AB0845-BC12-48B2-846B-749C093F55AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AB0845-BC12-48B2-846B-749C093F55AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3E7BD2-EAE6-4841-BBA4-94309038C788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3E7BD2-EAE6-4841-BBA4-94309038C788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3E7BD2-EAE6-4841-BBA4-94309038C788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3E7BD2-EAE6-4841-BBA4-94309038C788}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6F29913-E50E-4385-9FA1-C26449F49B0A} = {F7CD7520-83B8-4170-84D8-464CA7463F74}
+		{2E6CE267-FA26-462B-8F2F-2D0BB883AB4F} = {F7CD7520-83B8-4170-84D8-464CA7463F74}
+		{64AB0845-BC12-48B2-846B-749C093F55AD} = {33D88BE2-DE5C-43A9-B8FF-CED05F112936}
+		{FE3E7BD2-EAE6-4841-BBA4-94309038C788} = {33D88BE2-DE5C-43A9-B8FF-CED05F112936}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EFFD59D-90A0-42E6-8FC7-AB8115FD4F85}
+	EndGlobalSection
+EndGlobal
